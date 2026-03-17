@@ -33,4 +33,17 @@ public class StatisticsHelper
 
         return max;
     }
+    
+    public int CalculateMin()
+    {
+        if (values == null)
+            return 0;
+
+        int min = values[0];
+        foreach (var v in values)
+            if (v < min)
+                min = v;
+
+        return min;
+    }
 }
