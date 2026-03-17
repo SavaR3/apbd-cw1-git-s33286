@@ -2,5 +2,10 @@
 
 public class StatisticsHelper
 {
-    
+    private int[] values;
+
+    public StatisticsHelper(int[] values)
+    {
+        this.values = values;
+    }
 }
