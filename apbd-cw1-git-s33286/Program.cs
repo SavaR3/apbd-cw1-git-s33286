@@ -11,6 +11,9 @@ try{
     
     Console.WriteLine("śriednia wartosć twoich liczb: " + 
                       statisticsHelper.CalculateAverage());
+    
+    Console.WriteLine("max wartosć z twoich liczb: " + 
+                      statisticsHelper.CalculateMax());
 }
 catch (FormatException)
 {
