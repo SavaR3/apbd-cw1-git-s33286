@@ -8,4 +8,16 @@ public class StatisticsHelper
     {
         this.values = values;
     }
+    
+    public double CalculateAverage()
+    {
+        if (values == null)
+            return 0;
+
+        double sum = 0;
+        foreach (var v in values)
+            sum += v;
+
+        return sum / values.Length;
+    }
 }
