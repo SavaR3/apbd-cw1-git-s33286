@@ -18,6 +18,8 @@ try{
     Console.WriteLine("min wartosć z twoich liczb: " + 
                       statisticsHelper.CalculateMin());
     
+    Console.WriteLine("git feature-conflict test");
+    
     Console.WriteLine("git feature-conflict test in main branch");
 }
 catch (FormatException)
