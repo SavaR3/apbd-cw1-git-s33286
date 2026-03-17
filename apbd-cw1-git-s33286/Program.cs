@@ -14,6 +14,9 @@ try{
     
     Console.WriteLine("max wartosć z twoich liczb: " + 
                       statisticsHelper.CalculateMax());
+    
+    Console.WriteLine("min wartosć z twoich liczb: " + 
+                      statisticsHelper.CalculateMin());
 }
 catch (FormatException)
 {
