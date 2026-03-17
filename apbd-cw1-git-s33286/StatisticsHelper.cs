@@ -20,4 +20,17 @@ public class StatisticsHelper
 
         return sum / values.Length;
     }
+    
+    public int CalculateMax()
+    {
+        if (values == null)
+            return 0;
+
+        int max = values[0];
+        foreach (var v in values)
+            if (v > max)
+                max = v;
+
+        return max;
+    }
 }
